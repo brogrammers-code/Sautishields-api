@@ -1,0 +1,11 @@
+#requirements.txt
+fastapi
+uvicorn
+transformers
+torch
+pandas
+numpy
+scikit-learn
+datasets
+iterative-stratification
+kagglehub
