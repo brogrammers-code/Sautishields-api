@@ -7,6 +7,12 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import json
 import os
 import numpy as np
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+MODEL_NAME = "mumbly6/sautshieldsmodels"
+
+tokenizer = AutoTokenizer.from_pretrained(mumbly6/sautshieldsmodels)
+model = AutoModelForSequenceClassification.from_pretrained(mumbly6/sautshieldsmodels)
 
 # --- Configuration and Global Variables ---
 # Define model paths (assuming they are in a 'models' directory relative to main.py)
